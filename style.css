@@ -1,0 +1,126 @@
+/* Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+line-height: 1.6;
+color: #333;
+background-color: #f4f4f4;
+padding: 20px;
+}
+
+/* Header */
+header {
+text-align: center;
+margin-bottom: 40px;
+}
+
+header h1 {
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #007BFF;
+}
+
+/* Sections */
+section {
+margin-bottom: 50px;
+padding: 20px;
+background-color: #fff;
+border-radius: 10px;
+}
+
+h2 {
+margin-bottom: 15px;
+color: #007BFF;
+}
+
+/* Services */
+#services ul {
+list-style-type: disc;
+margin-left: 20px;
+}
+
+/* Projects */
+.project-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.project-card {
+flex: 1 1 300px;
+background-color: #e9ecef;
+padding: 15px;
+border-radius: 10px;
+text-align: center;
+}
+
+.project-card a {
+display: inline-block;
+margin-top: 10px;
+text-decoration: none;
+color: #fff;
+background-color: #007BFF;
+padding: 8px 15px;
+border-radius: 5px;
+}
+
+.project-card a:hover {
+background-color: #0056b3;
+}
+
+/* Contact Links */
+.contact-links {
+list-style: none;
+display: flex;
+gap: 15px;
+justify-content: center;
+margin-top: 10px;
+}
+
+.contact-links a {
+text-decoration: none;
+color: #fff;
+background-color: #007BFF;
+padding: 8px 12px;
+border-radius: 5px;
+}
+
+.contact-links a:hover {
+background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+text-align: center;
+margin-top: 30px;
+color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+.project-grid {
+    flex-direction: column;
+}
+}
